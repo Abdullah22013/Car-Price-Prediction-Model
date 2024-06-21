@@ -17,18 +17,18 @@ This repository contains code for a car price prediction web application. The ap
 The goal of this project is to predict the selling price of a car based on features such as present price, kilometers driven, ownership, fuel type, seller type, transmission type, and the year of the car model. Two regression models are used: Linear Regression and Lasso Regression.
 
 ## Directory Structure
-
-car-price-prediction/
-│
-├── car_prediction_model.py
-├── app.py
-├── templates/
-│ ├── index.html
-│ └── result.html
-├── static/
-│ └── styles.css
-├── README.md
-└── requirements.txt
+<br/>
+car-price-prediction/<br/>
+│<br/>
+├── car_prediction_model.py<br/>
+├── app.py<br/>
+├── templates/<br/>
+│ ├── index.html<br/>
+│ └── result.html<br/>
+├── static/<br/>
+│ └── styles.css<br/>
+├── README.md<br/>
+└── requirements.txt<br/>
 
 - `car_prediction_model.py`: Script to train the Linear Regression and Lasso Regression models.
 - `app.py`: Flask application script to serve the web application.
