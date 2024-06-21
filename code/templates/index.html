@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Price Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Car Price Prediction</h1>
+        <form class="form" action="/predict" method="post">
+            <label for="Present_Price">Present Price:</label>
+            <input type="number" step="0.01" id="Present_Price" name="Present_Price" required><br><br>
+            
+            <label for="Kms_Driven">Kms Driven:</label>
+            <input type="number" id="Kms_Driven" name="Kms_Driven" required><br><br>
+            
+            <label for="Owner">Owner (0 for first, 1 for second):</label>
+            <input type="number" id="Owner" name="Owner" required><br><br>
+            
+            <label for="Fuel_Type">Fuel Type (0 for Petrol, 1 for Diesel, 2 for CNG):</label>
+            <input type="number" id="Fuel_Type" name="Fuel_Type" required><br><br>
+            
+            <label for="Seller_Type">Seller Type (0 for Dealer, 1 for Individual):</label>
+            <input type="number" id="Seller_Type" name="Seller_Type" required><br><br>
+            
+            <label for="Transmission">Transmission (0 for Manual, 1 for Automatic):</label>
+            <input type="number" id="Transmission" name="Transmission" required><br><br>
+            
+            <label for="Year">Year of the car model:</label>
+            <input type="number" id="Year" name="Year" required><br><br>
+            
+            <button type="submit">Predict Price</button>
+        </form>
+    </div>
+</body>
+</html>
