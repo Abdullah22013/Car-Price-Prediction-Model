@@ -65,15 +65,46 @@ Ensure you have the following installed on your machine:
 
 ## Usage
 ### Model Training:
-To train the models and save them to disk, run the car_prediction_model.py script:
-```bash
-   python car_prediction_model.py
+
+To train the models and save them to disk, run the car_prediction_model.py script:<br/>
+python car_prediction_model.py
+
 
 
 This will create two model files:linear_regression_model.pkl and lasso_regression_model.pkl, along with model_features.pkl.
 
 Web Application:
 To start the web application, run the app.py script:
+
+
+## Model Training
+- The `car_prediction_model.py` script performs the following steps:
+  - Loads the car dataset from a CSV file.
+  - Preprocesses the dataset, including encoding categorical variables.
+  - Splits the dataset into training and testing sets.
+  - Trains a Linear Regression model and a Lasso Regression model.
+  - Saves the trained models and the feature list to disk.
+  - Visualizes the actual vs. predicted prices for both models.
+
+## Web Application
+- The web application (`app.py`) allows users to input car details and get price predictions from both the Linear Regression and Lasso Regression models. The app consists of:
+  - `index.html`: Form for users to input car details.
+  - `result.html`: Displays the predicted prices from both models.
+
+### Routes
+- `/`: Renders the home page with the input form.
+- `/predict`: Handles form submission, processes input data, and renders the result page with predictions.
+
+## Acknowledgements
+- This project uses the following libraries and frameworks:
+  - Pandas
+  - Matplotlib
+  - Seaborn
+  - scikit-learn
+  - Flask
+  - Joblib
+
+Feel free to contribute to the project by opening issues or submitting pull requests.
 
 
 
