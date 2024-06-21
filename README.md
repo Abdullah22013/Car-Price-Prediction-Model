@@ -53,8 +53,8 @@ Ensure you have the following installed on your machine:
    cd car-price-prediction
 
 2. Create a virtual environment and activate it:
+   ```bash
+   python -m venv venv <br/>
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate` <br/>
 
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
