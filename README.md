@@ -28,7 +28,7 @@ car-price-prediction/<br/>
 ├── static/<br/>
 │ └── styles.css<br/>
 ├── README.md<br/>
-└── requirements.txt<br/>
+└── requirements.txt<br/></br>
 
 - `car_prediction_model.py`: Script to train the Linear Regression and Lasso Regression models.
 - `app.py`: Flask application script to serve the web application.
@@ -51,3 +51,10 @@ Ensure you have the following installed on your machine:
    ```bash
    git clone https://github.com/your-username/car-price-prediction.git
    cd car-price-prediction
+
+2. Create a virtual environment and activate it:
+
+bash
+Copy code
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
