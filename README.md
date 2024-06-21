@@ -63,8 +63,8 @@ Ensure you have the following installed on your machine:
 
 4. Download the car dataset and place it in the project directory. Update the file path in car_prediction_model.py accordingly.
 
-##Usage
-###Model Training:
+## Usage
+### Model Training:
 To train the models and save them to disk, run the car_prediction_model.py script:
 ```bash
    python car_prediction_model.py
