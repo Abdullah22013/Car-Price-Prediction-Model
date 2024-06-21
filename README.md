@@ -54,7 +54,10 @@ Ensure you have the following installed on your machine:
 
 2. Create a virtual environment and activate it:
    ```bash
-   python -m venv venv <br/>
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate` <br/>
+   python -m venv venv 
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
+3. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
 
