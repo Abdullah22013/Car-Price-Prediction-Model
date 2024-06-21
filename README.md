@@ -70,3 +70,12 @@ To train the models and save them to disk, run the car_prediction_model.py scrip
    python car_prediction_model.py
 
 
+This will create two model files:linear_regression_model.pkl and lasso_regression_model.pkl, along with model_features.pkl.
+
+Web Application:
+To start the web application, run the app.py script:
+
+
+
+
+
