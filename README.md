@@ -1,15 +1,16 @@
 <h1>Car Price Prediction<h1/>
-This repository contains code for a car price prediction web application. The application utilizes two machine learning models - Linear Regression and Lasso Regression - to predict the selling price of a car based on various features. The application is built using Python, Flask for the web framework, and scikit-learn for the machine learning models.
+  
+<p>This repository contains code for a car price prediction web application. The application utilizes two machine learning models - Linear Regression and Lasso Regression - to predict the selling price of a car based on various features. The application is built using Python, Flask for the web framework, and scikit-learn for the machine learning models.<p/>
 
-Table of Contents
-Project Overview
-Directory Structure
-Setup and Installation
-Usage
-Model Training
-Web Application
-Acknowledgements
-Project Overview
+<h2>Table of Contents<h2/>
+Project Overview<br/>
+Directory Structure<br/>
+Setup and Installation<br/>
+Usage<br/>
+Model Training<br/>
+Web Application<br/>
+Acknowledgements<br/>
+Project Overview<br/>
 The goal of this project is to predict the selling price of a car based on features such as present price, kilometers driven, ownership, fuel type, seller type, transmission type, and the year of the car model. Two regression models are used: Linear Regression and Lasso Regression.
 
 Directory Structure
